@@ -1,0 +1,129 @@
+/* tags */
+body {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(images/wrinkled-paper-texture.jpg);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  font-size: 25px;
+}
+img {
+  width: 140px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20%;
+  cursor: pointer;
+}
+hr {
+  height: 130px;
+  width: 0.5px;
+  background-color: black;
+}
+small {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+}
+table td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  font-size: 15px;
+}
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+span {
+  display: inline-block;
+}
+/* classes */
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.press-div {
+  display: flex;
+  max-width: 550px;
+  width: 100%;
+  justify-content: space-around;
+}
+.column {
+  display: flex;
+}
+.play-with-key {
+  border: 2px solid black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.185);
+  padding: 10px;
+  border-color: blue;
+  font-size: large;
+}
+.column_image_element  {
+  -webkit-user-drag: none;
+}
+.noevents {
+  pointer-events: none;
+}
+.bordercolor {
+  transition: border 1s ease, width 1s ease;
+}
+.bordercolor:active {
+  border: 2px solid rgba(158, 158, 204, 0);
+  width: 120px;
+}
+.margin {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.reset-button {
+  background-color: aquamarine;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.autoplay-button {
+  background-color: aquamarine;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.reset-autoplay {
+  background-color: rgb(221, 114, 114);
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.autoplay-button:active,
+.reset-button:active {
+  background-color: #99ecd1;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+.reset-autoplay:active {
+  background-color: rgb(189, 135, 135);
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+.clicked {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
